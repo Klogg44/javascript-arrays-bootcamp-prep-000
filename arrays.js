@@ -22,7 +22,7 @@ function accessElementInArray (array, index) {
   return array[index]
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift(element)
+function destructivelyRemoveElementToBeginningOfArray(array, element) {
+  array.shift(element)
   return array
 }
